@@ -1,0 +1,73 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  background: linear-gradient(#00C9FF,#92FE9D);
+}
+
+.app-cont{
+  font-family:"Open Sans", "Gill Sans MT", "Gill Sans", Corbel, Arial, sans-serif; 
+  width: 100%;
+  min-height: 100vh;
+  
+}
+h1{
+  text-align: center;
+  margin-top: 10px;
+  color: #7a2828;
+}
+.details{
+  padding: 10px;
+  height: 350px;
+  width: 500px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  margin: 50px auto;
+  border-radius: 10px;
+  background: linear-gradient(#304352,#d7d2cc);
+}
+
+.input-cont{
+  width: 300px;
+  margin: 10px auto;
+  border-bottom: 1px solid #F1F2B5;
+  display: flex;
+justify-content: space-between;
+padding: 10px;
+}
+
+#city-input{
+  color: #eef2f3;
+  border: none;
+  outline: none;
+  font-size: 1.2rem;
+  background: transparent;
+}
+
+[alt="search"]{
+  cursor: pointer;
+}
+
+.whether-img{
+  text-align: center;
+}
+
+.temp{
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  color: #2E1437;
+  align-items: center;
+}
+
+.other-dtl{
+  padding: 10px;
+  font-size: 1.5rem;
+}
+
+.other-dtl p{
+  display: flex;
+  justify-content: space-between;
+  color: #485563;
+}
